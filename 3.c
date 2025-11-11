@@ -5,6 +5,7 @@
 
 int main(){
     int a=5,b;
+    // b=++a;//++a&a++
     b=a++;//++a&a++
     printf("%d%d",a,b);
 }

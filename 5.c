@@ -4,7 +4,7 @@ int main(){
     printf("Enter 3 nos");
     scanf("%d%d%d",&a,&b,&c);
     
-    max=(a>b)?(a>c?a:c):(b>c)?b:c;
+    max=(a>b)?(a>c?a:c):(b>c?b:c);
     
     printf("%d",max);
 }
